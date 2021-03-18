@@ -8,6 +8,7 @@
         "**/__pycache__": true,
         "**/.ipynb_checkpoints": true,
         "**/.ipython": true,
+        "**/.theia": true,
         "**/.gitpod.yml": true
     }
 }
