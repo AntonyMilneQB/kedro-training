@@ -1,6 +1,6 @@
 tasks:
   - init: pip install -r completed-spaceflights/src/requirements.txt
-    command: cd jupyter-spaceflights-tided && jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''
+    command: cd jupyter-spaceflights jupyter lab --ip='*' --NotebookApp.token='' --NotebookApp.password=''
     name: jupyter
 
 ports:
